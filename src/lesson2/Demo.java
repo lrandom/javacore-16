@@ -59,9 +59,7 @@ public class Demo {
             }
             System.out.println(i);
         }//012346789
-        
-        
-        
+     
         System.exit(0);
         
         for(int i=10; i>0;i--){
