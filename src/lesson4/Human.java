@@ -24,6 +24,14 @@ public class Human {
        this.name = name;
     }
     
+    Human(String name, String hairColor){
+        
+    };
+    
+    Human(){
+        
+    }
+    
     public String getEyeColor(){
         return this.eyeColor;
     }
