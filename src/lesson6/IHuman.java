@@ -3,17 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package lesson5.demo2;
+package lesson6;
 
 /**
  *
  * @author Lrandom
  */
-public class Cycle extends Vehicles{
-    @Override
-    public void getAccess() {
-        this.getName();
-        System.out.println("Hello");
-        
-    }
+interface IHuman {
+    final String EYECOLOR="Xanh";
+    public static final String HAIRCOLOR="Đỏ";
+    public void run();
+    public void eat();
+    void sleep();
+   
 }

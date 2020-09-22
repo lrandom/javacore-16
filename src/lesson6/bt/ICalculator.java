@@ -3,17 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package lesson5.demo2;
+package lesson6.bt;
 
 /**
  *
  * @author Lrandom
  */
-public class Cycle extends Vehicles{
-    @Override
-    public void getAccess() {
-        this.getName();
-        System.out.println("Hello");
-        
-    }
+interface ICalculator {
+    public float add(float a, float b);
+    public float minus(float a, float b);
+    public float multiple(float a, float b);
+    public float devide(float a, float b);
 }
